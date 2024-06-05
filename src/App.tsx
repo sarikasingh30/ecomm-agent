@@ -6,7 +6,7 @@ import { MainRoutes } from './pages/MainRoutes';
 const App: React.FC=() =>{
 
   return (
-    <div className="App">
+    <div className="w-full">
      <Navbar/>
      <MainRoutes/>
     </div>

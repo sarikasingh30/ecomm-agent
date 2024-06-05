@@ -60,9 +60,9 @@ export const EditProduct: React.FC<{}> = () => {
     };
 
   return (
-    <div className="w-3/4 m-auto p-4">
-      <h1 className=" text-2xl text-center font-bold mb-4">Edit Product</h1>
-     {pro? <form onSubmit={handleSubmit} className="container mx-auto p-4">
+    <div className="w-full m-auto p-4 bg-cover bg-center bg-opacity-30" style={{backgroundImage:"url(https://www.pngkey.com/png/full/951-9515208_business-card-background-black-and-white-visiting-images.png)"}} >
+      <h1 className=" text-2xl text-center font-bold mb-4 bg-white">Edit Product</h1>
+     {pro? <form onSubmit={handleSubmit} className="w-3/4 mx-auto p-4">
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2">Title</label>
         <input name="title" value={pro?.title} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required/>
@@ -126,7 +126,7 @@ export const EditProduct: React.FC<{}> = () => {
       </div>
 
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2">Dimensions</label>
+        <label className="block text-gray-700 text-sm font-bold mb-2">Dimensions (width/height/depth)(in cm)</label>
         <div className="flex space-x-4">
           <input name="width" type="number" value={pro?.dimensions.width} onChange={(e) => handleNestedChange(e, 'dimensions')} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Width" required />
           <input name="height" type="number" value={pro?.dimensions.height} onChange={(e) => handleNestedChange(e, 'dimensions')} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Height" required/>
@@ -134,11 +134,11 @@ export const EditProduct: React.FC<{}> = () => {
         </div>
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2">Description</label>
+        <label className="block text-gray-700 text-sm font-bold mb-2 bg-white">Description</label>
         <textarea name="description" value={pro?.description} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required/>
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2">Thumbnail URL</label>
+        <label className="block text-gray-700 text-sm font-bold mb-2 bg-white">Thumbnail URL</label>
         <input name="thumbnail" value={pro?.thumbnail} onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
       </div>
       <div className="flex items-center justify-between">
