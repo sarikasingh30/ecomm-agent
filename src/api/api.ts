@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { Product } from '../interfaces/product';
 
-const API_URL = 'http://localhost:8080/products';
-// const API_URL = 'https://ecomm-backend-api.onrender.com/products';
+const API_URL = 'https://ecomm-backend-api.onrender.com/products';
+
 
 export const fetchProducts = async ()=> {
   const response = await axios.get(API_URL);

@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../redux/store";
 import { getSProduct } from "../redux/productSlice";
 import { FiStar } from "react-icons/fi";
-import { url } from "inspector";
+
 
 export const SingleProduct: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -19,7 +19,7 @@ export const SingleProduct: React.FC = () => {
     (state: RootState) => state.products.selectedProduct
   );
 
-  if (!id||!selectedProduct) {
+  if (!id) {
     return <div className="container mx-auto p-4">
     <div className="w-3/4 m-auto ">
           <img
@@ -33,7 +33,19 @@ export const SingleProduct: React.FC = () => {
   }
 
   return (
-    <div className="w-full p-4 mt-4 ">
+    <>
+       {!selectedProduct ? (
+        <div className="mt-5 flex justify-center items-center">
+          <div
+            className="m-auto inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-info motion-reduce:animate-[spin_1.5s_linear_infinite]"
+            role="status"
+          >
+            <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+              Loading...
+            </span>
+          </div>
+        </div>
+      ): <div className="w-full p-4 mt-4 ">
       <div className=" w-3/4 m-auto mt-6 py-6 shadow-shadBo rounded-xl bg-cover bg-center" style={{backgroundImage:"url(https://img6.thuthuatphanmem.vn/uploads/2022/03/15/mau-background-dep-cho-card-visit_092710350.png)"}}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -163,6 +175,8 @@ export const SingleProduct: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div>}
+    
+    </>
   );
 };
