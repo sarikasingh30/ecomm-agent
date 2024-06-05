@@ -10,8 +10,8 @@ export const MainRoutes: React.FC = () => {
     <Routes>
         <Route path='/' element={<ProductList/>} />
         <Route path='/product/:id' element={<SingleProduct/>} />
-        <Route path="product/create" element={<CreateProduct/>} />
-        <Route path="product/:id/edit" element={<EditProduct/>} />
+        <Route path="/product/create" element={<CreateProduct/>} />
+        <Route path="/product/:id/edit" element={<EditProduct/>} />
     </Routes>
   )
 }

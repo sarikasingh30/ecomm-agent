@@ -7,9 +7,9 @@ interface SearchBarProps {
 export const SearchBar: React.FC<SearchBarProps> = ({ Value, OnChange }) => {
   return (
     <>
-      <div className="m-auto p-3 mt-4 flex justify-between items-center text-gray-600 border-2 border-gray-300 rounded-lg">
+      <div className="w-3/4 m-auto p-2 mt-4 flex justify-center items-center text-gray-600 border-2 border-gray-300 rounded-lg">
         <input
-          className=" bg-white rounded-lg text-sm focus:outline-none"
+          className="w-[95%] bg-white rounded-lg text-md focus:outline-none"
           type="search"
           name="search"
           placeholder="Search"
@@ -17,7 +17,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ Value, OnChange }) => {
           onChange={OnChange}
         />
         <svg
-          className="text-gray-600 h-4 w-4 fill-current"
+          className="w-[5%] text-gray-600 h-4 fill-current"
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           id="Capa_1"
