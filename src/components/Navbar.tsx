@@ -1,20 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div>
+    <>
       <nav
-        className="relative flex w-full flex-nowrap items-center justify-between bg-[#332D2D] py-2 shadow-dark-mild lg:flex-wrap lg:justify-start lg:py-4"
+        className="flex w-full flex-nowrap items-center justify-between bg-[#332D2D] shadow-dark-mild lg:flex-wrap lg:justify-start lg:py-4"
         data-twe-navbar-ref
       >
         <div className="flex w-full flex-wrap items-center justify-between px-3">
           <div className="mx-2">
-            <a className="text-xl text-neutral-100" href="/">
+            <Link className="text-xl text-neutral-100" to="/">
               Welcome
-            </a>
+            </Link>
           </div>
 
-          <button
+          {/* <button
             className="block border-0 bg-transparent px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
             type="button"
             data-twe-collapse-init
@@ -36,7 +37,7 @@ export const Navbar = () => {
                 />
               </svg>
             </span>
-          </button>
+          </button> */}
 
           <div
             className="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
@@ -65,13 +66,13 @@ export const Navbar = () => {
                 className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0"
                 data-twe-nav-item-ref
               >
-                <a
+                <Link
                   className="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 active:text-black/80 motion-reduce:transition-none lg:px-2"
-                  href="/"
+                  to="/product/create"
                   data-twe-nav-link-ref
                 >
                   Add New Product
-                </a>
+                </Link>
               </li>
 
               {/* <li
@@ -103,6 +104,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };

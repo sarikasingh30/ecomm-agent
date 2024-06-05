@@ -1,6 +1,4 @@
-
 {
-   
   "products": [
     {
       "id": "1",
@@ -23,7 +21,7 @@
       },
       "warrantyInformation": "1 month warranty",
       "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "Low Stock",
+      "availabilityStatus": "In Stock",
       "images": [
         "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
       ],
@@ -63,13 +61,13 @@
       "category": "beauty",
       "price": 14.99,
       "discountPercentage": 18.14,
-      "rating": 3.82,
+      "rating": 4.82,
       "tags": [
         "beauty",
         "face powder"
       ],
       "brand": "Velvet Touch",
-      "weight": 8,
+      "weight": 0.3,
       "dimensions": {
         "width": 24.16,
         "height": 10.7,
@@ -150,7 +148,6 @@
         "perfumes"
       ],
       "brand": "Calvin Klein",
-
       "weight": 5,
       "dimensions": {
         "width": 11.53,
@@ -189,7 +186,6 @@
       "warrantyInformation": "1 week warranty",
       "shippingInformation": "Ships in 1 month",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
@@ -219,7 +215,6 @@
       "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 2 weeks",
       "availabilityStatus": "In Stock",
-    
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/2.png",
@@ -249,7 +244,6 @@
       "warrantyInformation": "5 year warranty",
       "shippingInformation": "Ships in 1-2 business days",
       "availabilityStatus": "Low Stock",
-
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/2.png",
@@ -279,7 +273,6 @@
       "warrantyInformation": "No warranty",
       "shippingInformation": "Ships in 2 weeks",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
@@ -309,7 +302,6 @@
       "warrantyInformation": "2 year warranty",
       "shippingInformation": "Ships overnight",
       "availabilityStatus": "In Stock",
- 
       "images": [
         "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
         "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
@@ -397,7 +389,6 @@
       "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 3-5 business days",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/1.png",
         "https://cdn.dummyjson.com/products/images/furniture/Knoll%20Saarinen%20Executive%20Conference%20Chair/2.png",
@@ -413,13 +404,11 @@
       "price": 799.99,
       "discountPercentage": 11.22,
       "rating": 3.26,
-  
       "tags": [
         "furniture",
         "bathroom"
       ],
       "brand": "Bath Trends",
-  
       "weight": 6,
       "dimensions": {
         "width": 7.32,
@@ -429,7 +418,6 @@
       "warrantyInformation": "6 months warranty",
       "shippingInformation": "Ships in 3-5 business days",
       "availabilityStatus": "In Stock",
-  
       "images": [
         "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/1.png",
         "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/2.png",
@@ -457,7 +445,6 @@
       "warrantyInformation": "2 year warranty",
       "shippingInformation": "Ships in 2 weeks",
       "availabilityStatus": "In Stock",
- 
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png"
       ],
@@ -474,7 +461,6 @@
       "tags": [
         "meat"
       ],
-   
       "weight": 9,
       "dimensions": {
         "width": 23.35,
@@ -484,7 +470,6 @@
       "warrantyInformation": "1 month warranty",
       "shippingInformation": "Ships overnight",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/1.png"
       ],
@@ -502,7 +487,6 @@
         "pet supplies",
         "cat food"
       ],
-     
       "weight": 9,
       "dimensions": {
         "width": 15.4,
@@ -512,7 +496,6 @@
       "warrantyInformation": "3 months warranty",
       "shippingInformation": "Ships in 1-2 business days",
       "availabilityStatus": "In Stock",
-     
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png"
       ],
@@ -529,7 +512,6 @@
       "tags": [
         "meat"
       ],
-     
       "weight": 7,
       "dimensions": {
         "width": 15.96,
@@ -539,7 +521,6 @@
       "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 1 month",
       "availabilityStatus": "In Stock",
- 
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/2.png"
@@ -554,11 +535,9 @@
       "price": 4.99,
       "discountPercentage": 18.89,
       "rating": 4.01,
- 
       "tags": [
         "cooking essentials"
       ],
-     
       "weight": 8,
       "dimensions": {
         "width": 8.18,
@@ -568,7 +547,6 @@
       "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 1 month",
       "availabilityStatus": "In Stock",
-  
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png"
       ],
@@ -582,11 +560,9 @@
       "price": 1.49,
       "discountPercentage": 11.44,
       "rating": 4.71,
-   
       "tags": [
         "vegetables"
       ],
-      
       "weight": 9,
       "dimensions": {
         "width": 11.04,
@@ -596,7 +572,6 @@
       "warrantyInformation": "5 year warranty",
       "shippingInformation": "Ships overnight",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png"
       ],
@@ -610,12 +585,10 @@
       "price": 10.99,
       "discountPercentage": 18.15,
       "rating": 2.74,
- 
       "tags": [
         "pet supplies",
         "dog food"
       ],
-     
       "weight": 2,
       "dimensions": {
         "width": 29.39,
@@ -625,7 +598,6 @@
       "warrantyInformation": "1 year warranty",
       "shippingInformation": "Ships in 1 month",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png"
       ],
@@ -639,11 +611,9 @@
       "price": 2.99,
       "discountPercentage": 5.8,
       "rating": 4.46,
-
       "tags": [
         "dairy"
       ],
- 
       "weight": 4,
       "dimensions": {
         "width": 12.3,
@@ -653,7 +623,6 @@
       "warrantyInformation": "3 year warranty",
       "shippingInformation": "Ships overnight",
       "availabilityStatus": "In Stock",
-   
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png"
       ],
@@ -679,7 +648,6 @@
       "warrantyInformation": "1 year warranty",
       "shippingInformation": "Ships in 1 month",
       "availabilityStatus": "In Stock",
-     
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png"
       ],
@@ -693,11 +661,9 @@
       "price": 1.29,
       "discountPercentage": 15.5,
       "rating": 4.28,
-      
       "tags": [
         "vegetables"
       ],
-      
       "weight": 7,
       "dimensions": {
         "width": 7.32,
@@ -720,11 +686,9 @@
       "price": 0.99,
       "discountPercentage": 18.51,
       "rating": 4.43,
-      
       "tags": [
         "vegetables"
       ],
-      
       "weight": 2,
       "dimensions": {
         "width": 18.67,
@@ -734,7 +698,6 @@
       "warrantyInformation": "No warranty",
       "shippingInformation": "Ships in 1-2 business days",
       "availabilityStatus": "In Stock",
-     
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png"
       ],
@@ -748,7 +711,6 @@
       "price": 6.99,
       "discountPercentage": 1.91,
       "rating": 3.5,
-
       "tags": [
         "condiments"
       ],
@@ -805,7 +767,6 @@
       "tags": [
         "beverages"
       ],
-
       "weight": 2,
       "dimensions": {
         "width": 8.97,
@@ -846,20 +807,18 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
     },
     {
-      "id": 5678,
+      "id": "5678",
       "title": "Bandrdhj Mascara Lash Princess",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Acdzfxfcgvhbjngujhkn lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
       "price": 99.99,
       "discountPercentage": 78.17,
       "rating": 4.94,
-
       "tags": [
         "beauty",
         "mascara"
       ],
       "brand": "Essence",
-
       "weight": 2,
       "dimensions": {
         "width": 23.17,
@@ -873,6 +832,30 @@
         "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+    },
+    {
+      "id": "99",
+      "title": "Bringaas",
+      "description": "lorem cvb zxcvb zdxfcgvhbj xfcgvhbn dzxfcgvhbjn xdcftvyghu drctfvygbun xdrctfvygbun rftyu xfcgvhb cgvb xcvg xctvyb xctvy dctvb rhtvjh ty ",
+      "category": "beauty",
+      "price": 567,
+      "discountPercentage": 10,
+      "rating": 3,
+      "tags": [
+        "fragreance  ",
+        "beauty"
+      ],
+      "brand": "Nykaa",
+      "weight": 0.5,
+      "dimensions": {
+        "width": 23.17,
+        "height": 14.43,
+        "depth": 28.01
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "In Stock",
+      "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.l9tVIGSYs4pUtBE1MVtCfwHaHa&pid=Api&P=0&h=180"
     }
   ]
 }

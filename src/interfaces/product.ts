@@ -19,14 +19,14 @@ export interface Product {
     dimensions: Dimension ,
     warrantyInformation: string,
     shippingInformation: string,
-    availabilityStatus: boolean,
-    images:Array<string>,
+    availabilityStatus: string,
+    images?:Array<string>,
     thumbnail: string
   }
 
 export interface ProductState{
     items: Product[],
-    selectedProduct?: Product,
+    selectedProduct?: Product|undefined,
     isLoading: boolean;
     isError: boolean;
     
