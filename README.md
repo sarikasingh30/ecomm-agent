@@ -1,46 +1,129 @@
-# Getting Started with Create React App
+# Product Showcase Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+This project is a web application that displays a list of products and allows users to view details of individual products. It is built using React, Redux Toolkit, React Router, and Axios for API calls. The API data is mocked using JSON files. This application aims to provide a simple interface for browsing, viewing, creating, and editing product information.
 
-## Available Scripts
+## Project Type
+Frontend
 
-In the project directory, you can run:
+## Deployed App
+- Frontend: [https://ecomm-app-shop.vercel.app](https://ecomm-app-shop.vercel.app)
 
-### `npm start`
+## Directory Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    ecomm-agent/
+    ├─ public/
+    │ ├─ index.html
+    ├─ src/
+    │ ├─ components/
+    │ │ ├─ ProductList.tsx
+    │ │ ├─ ProductDetail.tsx
+    │ │ ├─ ProductForm.tsx
+    │ ├─ redux/
+    │ │ ├─ store.ts
+    │ │ ├─ slices/
+    │ │ │ ├─ productSlice.ts
+    │ ├─ App.tsx
+    │ ├─ index.tsx
+    │ ├─ mock/
+    │ │ ├─ products.json
+    │ ├─ styles/
+    │ │ ├─ tailwind.css
+    ├─ package.json
+    ├─ tailwind.config.js
+    └─ tsconfig.json
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Video Walkthrough of the Project
+[Watch the video walkthrough](https://drive.google.com/file/d/1ML8JWY0DolC9mtORiK9F6SsJ7R9i7ZEw/view?usp=sharing)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
+- Display a list of products
+- View details of individual products
+- Create new products
+- Edit existing products
+- Manage product data with Redux
+- Basic routing with React Router
+- API calls with Axios
+- Basic styling with Tailwind CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Design Decisions or Assumptions
+- Used Redux Toolkit for state management for ease of use and simplicity.
+- Mocked API data using JSON files to avoid backend dependencies.
+- Utilized TypeScript for type safety and better development experience.
+- Applied Tailwind CSS for utility-first styling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation & Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   git clone https://github.com/sarikasingh30/ecomm-agent.git
+   cd ecomm-agent
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ``` bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    npm install
+    ```
+3. Start the application:
 
-## Learn More
+    ``` bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
+
+![alt text](./assets/image.png)
+![alt text](./assets/image2.png)
+![alt text](./assets/image3.png)
+![alt text](./assets/image4.png)
+![alt text](./assets/image5.png)
+![alt text](./assets/image6.png)
+
+## Credentials
+No authentication is required for this project.
+
+## APIs Used
+Data is mocked using local JSON files and deployed later on Render
+
+ API => https://ecomm-backend-api.onrender.com
+
+
+## API Endpoints
+ Here are the API endpoints used in the project along with a brief description of each:
+
+1. **GET /products**
+   - Fetch all products from the API.
+
+2. **GET /products/:id**
+   - Fetch details of a single product by its ID.
+
+3. **POST /products**
+   - Create a new product with the given product data.
+
+4. **PUT /products/:id**
+   - Update an existing product by its ID with the given product data.
+
+
+## Technology Stack
+
+**React**: A JavaScript library for building user interfaces.
+
+**Redux Toolkit**: A toolset for efficient Redux development.
+
+**React Router**: A standard library for routing in React.
+
+**Axios**: A promise-based HTTP client for the browser and Node.js.
+
+**TypeScript**: A superset of JavaScript that adds static types.
+
+**Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+
+---
